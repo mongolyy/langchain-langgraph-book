@@ -1,0 +1,23 @@
+[project]
+name = "langchain-langgraph-book"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "mongolyy", email = "mongolyy@gmail.com" }
+]
+readme = "README.md"
+requires-python = "~3.11"
+dependencies = [
+    "langchain-core (==0.3.0)",
+    "langchain-openai (==0.2.0)",
+    "gitpython (==3.1.43)",
+    "langchain-community (==0.3.0)",
+]
+
+packages = [
+    { include = "chapter4" }
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
